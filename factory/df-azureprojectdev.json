@@ -1,0 +1,9 @@
+{
+	"name": "df-azureprojectdev",
+	"location": "centralus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "7727d459-80ce-4871-88b0-09190e0882ee",
+		"tenantId": "d3f0e386-2ff3-41b0-a76d-d62efd3fccc3"
+	}
+}
