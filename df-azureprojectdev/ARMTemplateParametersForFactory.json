@@ -1,0 +1,27 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "df-azureprojectdev"
+		},
+		"AzureSqlDatabaselinkservice_password": {
+			"value": ""
+		},
+		"datalakelinkedservice_accountKey": {
+			"value": ""
+		},
+		"AzureSqlDatabaselinkservice_properties_typeProperties_server": {
+			"value": "azureprojectdevserver.database.windows.net"
+		},
+		"AzureSqlDatabaselinkservice_properties_typeProperties_database": {
+			"value": "azureprojectdevdatabase"
+		},
+		"AzureSqlDatabaselinkservice_properties_typeProperties_userName": {
+			"value": "admindev"
+		},
+		"datalakelinkedservice_properties_typeProperties_url": {
+			"value": "https://devstorageazuredatalake.dfs.core.windows.net/"
+		}
+	}
+}
